@@ -18,7 +18,7 @@
 
 
 # The prepare image avoid ruining the cache of the builder
-FROM centos:7.6.1810 as prepare
+FROM centos:7.6.1815 as prepare
 WORKDIR /tikv
 
 # This step will always ruin the cache
